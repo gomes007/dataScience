@@ -1,0 +1,12 @@
+[workspace]
+restore_data_on_startup = True
+save_data_on_exit = True
+save_history = True
+save_non_project_files = False
+project_type = 'empty-project-type'
+recent_files = ['..\\..\\..\\.spyder-py3\\temp.py', '(1.1) Script Data Wrangling.py', '(2.2) Script WDI World Bank.py', '(3.1) Script CVM.py']
+
+[main]
+version = 0.2.0
+recent_files = []
+

@@ -43,11 +43,11 @@ dados.drop(columns=['Serial No.'], inplace=True)
 #%% Estatísticas descritivas das variáveis
 
 # Variáveis métricas
-print(dados[['GRE', 'TOEFL', 'SOP', 'LOR', 'CGPA', 'Score']].describe())
+display(dados[['GRE', 'TOEFL', 'SOP', 'LOR', 'CGPA', 'Score']].describe())
 
 # Variáveis categóricas
-print(dados['UniversityRating'].value_counts())
-print(dados['Research'].value_counts())
+display(dados['UniversityRating'].value_counts())
+display(dados['Research'].value_counts())
 
 #%% Transformando variáveis explicativas categóricas em dummies
 
